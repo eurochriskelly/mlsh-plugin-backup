@@ -1,0 +1,16 @@
+{
+  "name": "mlsh-plugin-corb",
+  "version": "1.0.1",
+  "description": "Package the corb scripts used by mlsh as an add on.",
+  "main": "scripts/corb-wrapper.js",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "corb": "bash scripts/corb-wrapper.sh",
+    "package": "scripts/package.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
